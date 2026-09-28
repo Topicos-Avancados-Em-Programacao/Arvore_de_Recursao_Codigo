@@ -49,7 +49,7 @@ public class Arvore_de_Recursao {
                 "h", "n^" + String.format("%.2f", logBA), "1", "1", "n^" + String.format("%.2f", logBA));
         System.out.println("------------------------------------------------------------------------");
 
-        // Resumo
+        
         System.out.println("\nAltura da árvore : log_" + b + "(n)");
         System.out.println("Total de níveis  : log_" + b + "(n) + 1");
         System.out.printf ("Total de folhas  : n^(log_%d %d) = n^%.4f%n", b, a, logBA);
