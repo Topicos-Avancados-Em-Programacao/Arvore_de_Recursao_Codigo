@@ -53,16 +53,6 @@ public class Arvore_de_Recursao {
         System.out.println("\nAltura da árvore : log_" + b + "(n)");
         System.out.printf ("Total de folhas  : n^(log_%d %d) = n^%.4f%n", b, a, logBA);
 
-        String complexidade;
-        if (a > bk) {
-            complexidade = String.format("Θ(n^%.4f)  -> as folhas dominam", logBA);
-        } else if (a == bk) {
-            complexidade = "Θ(" + (k == 0 ? "" : nk + " ") + "log n)  -> todos os níveis custam igual";
-        } else {
-            complexidade = "Θ(" + nk + ")  -> a raiz domina";
-        }
-        System.out.println("Custo total      : " + complexidade);
-
         sc.close();
     }
 
